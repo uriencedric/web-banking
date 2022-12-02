@@ -31,8 +31,6 @@ To run the application :
 `mvn spring-boot:run` to run the CLI application. It will install a h2 db @  the ~/ folder on your computer.
 ```
 
-To stop the application, please press CTRL+C
-
 ## Endpoints
 
  TODO
