@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:h2:~/asset-db;
+    username: sa
+    password: sa
+    initialization-mode: always
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+server:
+  port: 8080
+  servlet:
+    context-path: /api/webbanking
+jwt:
+  secret: dGGx9pBdzpVCz4Ok*0IVJdY
+  issuer: web-banking
+logging:
+  level:
+    root: INFO
+    com.finologee.web.banking: INFO
